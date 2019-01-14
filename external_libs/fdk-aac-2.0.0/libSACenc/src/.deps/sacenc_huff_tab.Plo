@@ -1,0 +1,6 @@
+libSACenc/src/sacenc_huff_tab.lo: libSACenc/src/sacenc_huff_tab.cpp \
+ libSACenc/src/sacenc_huff_tab.h libSYS/include/machine_type.h
+
+libSACenc/src/sacenc_huff_tab.h:
+
+libSYS/include/machine_type.h:

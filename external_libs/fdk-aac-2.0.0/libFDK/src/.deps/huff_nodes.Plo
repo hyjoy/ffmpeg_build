@@ -1,0 +1,9 @@
+libFDK/src/huff_nodes.lo: libFDK/src/huff_nodes.cpp \
+ libFDK/include/huff_nodes.h libSYS/include/genericStds.h \
+ libSYS/include/machine_type.h
+
+libFDK/include/huff_nodes.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:

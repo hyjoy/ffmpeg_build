@@ -1,0 +1,11 @@
+prefix=/Users/hyjoy/WorkSpace/Study/ffmpeg/ffmpeg-3.3.9/external_libs/fdk-aac-2.0.0/build/x86
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 2.0.0
+Libs: -L${libdir} -lfdk-aac -lm 
+Libs.private: 
+Cflags: -I${includedir}

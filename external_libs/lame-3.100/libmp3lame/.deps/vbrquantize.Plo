@@ -1,0 +1,227 @@
+vbrquantize.lo: vbrquantize.c ../config.h ../include/lame.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdio.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/cdefs.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/android/api-level.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdint.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/_types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/_types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/posix_types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/stddef.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/compiler.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/posix_types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/kernel.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h \
+ machine.h version.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/assert.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdlib.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/string.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/malloc.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/alloca.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/strings.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/memory.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/math.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/internal_types.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/limits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/syslimits.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/page.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/ctype.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/errno.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/errno.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/errno.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/errno.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/errno-base.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/fcntl.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/fcntl.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/fcntl.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/fcntl.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/unistd.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/select.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/time.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/time.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/signal.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/signal.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/signal.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/sigcontext.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/siginfo.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/siginfo.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/ucontext.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/user.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/sysconf.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/capability.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/pathconf.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/stat.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/stat.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/endian.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/endian.h \
+ /Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/inttypes.h \
+ encoder.h util.h l3side.h id3tag.h lame_global_flags.h vbrquantize.h \
+ quantize_pvt.h
+
+../config.h:
+
+../include/lame.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdio.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/android/api-level.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdint.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/_types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/_types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/posix_types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/stddef.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/compiler.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/posix_types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/kernel.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/sysmacros.h:
+
+machine.h:
+
+version.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/assert.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/stdlib.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/string.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/malloc.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/alloca.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/strings.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/memory.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/math.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/internal_types.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/machine/limits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/syslimits.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/page.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/ctype.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/errno.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/errno.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/errno.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/errno.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/fcntl.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/fcntl.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/fcntl.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/fcntl.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/unistd.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/select.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/time.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/time.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/signal.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/signal.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/signal.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/sigcontext.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm/siginfo.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/ucontext.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/user.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/sysconf.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/capability.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/pathconf.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/stat.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/linux/stat.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/endian.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/sys/endian.h:
+
+/Users/hyjoy/WorkSpace/Study/ffmpeg/android-ndk-r14b/platforms/android-17/arch-arm/usr/include/inttypes.h:
+
+encoder.h:
+
+util.h:
+
+l3side.h:
+
+id3tag.h:
+
+lame_global_flags.h:
+
+vbrquantize.h:
+
+quantize_pvt.h:

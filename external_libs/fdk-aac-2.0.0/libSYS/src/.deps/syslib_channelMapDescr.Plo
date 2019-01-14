@@ -1,0 +1,7 @@
+libSYS/src/syslib_channelMapDescr.lo: \
+ libSYS/src/syslib_channelMapDescr.cpp \
+ libSYS/include/syslib_channelMapDescr.h libSYS/include/machine_type.h
+
+libSYS/include/syslib_channelMapDescr.h:
+
+libSYS/include/machine_type.h:

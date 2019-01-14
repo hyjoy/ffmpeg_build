@@ -1,0 +1,11 @@
+libFDK/src/FDK_matrixCalloc.lo: libFDK/src/FDK_matrixCalloc.cpp \
+ libFDK/include/FDK_matrixCalloc.h libSYS/include/machine_type.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h
+
+libFDK/include/FDK_matrixCalloc.h:
+
+libSYS/include/machine_type.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
