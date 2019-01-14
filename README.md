@@ -1,6 +1,22 @@
 FFmpeg README
 =============
 
+本仓库主要为ffmpeg 的编译脚本，
+
+各工程版本
+
+```
+ffmpeg:3.3.9
+fdk-aac:2.0.0
+lame:3.100
+libx264: 该版本注意，在编译的过程中由于使用了较高的版本，一直出现libx264 not found
+vo-aacenc:0.1.3
+```
+
+先执行external_libs 中各第三方库中的对应的sh config_**.sh 文件，生成对应的链接库，然后执行根目录中的sh config__**.sh 文件
+
+
+
 FFmpeg is a collection of libraries and tools to process multimedia content
 such as audio, video, subtitles and related metadata.
 
